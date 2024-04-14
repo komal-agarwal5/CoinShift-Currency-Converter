@@ -1,38 +1,21 @@
-.App {
-  text-align: center;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+    /* background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%); */
+    /* background-color: #cbf5df;
+    background-image: linear-gradient(90deg, #c5eed8 0%, #f8f7a2 100%); */
+    /* background-image: linear-gradient(109.6deg, rgba(254, 253, 205, 1) 11.2%, rgba(163, 230, 255, 1) 91.1%); */
+    background-image: linear-gradient(109.6deg, rgb(250, 249, 194) 11.2%, rgb(206, 240, 252) 91.1%);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+header h1{
+    /* background: -webkit-linear-gradient(109.6deg, rgb(226, 212, 11) 11.2%, rgb(19, 217, 243) 91.1%); */
+    background: -webkit-linear-gradient(109.6deg,rgba(255, 209, 67, 1) 11.2%, rgb(236, 104, 27) 91.1%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    font-size: 2rem;
+    font-weight: 900;
+    text-transform: uppercase;
 }

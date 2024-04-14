@@ -1,23 +1,17 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-
+import Convert from './component/Convert';
+import Footer from './component/Footer';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div>
+    {/* <div style={{
+      backgroundImage: `url(${Image})`, backgroundRepeat: 'no-repeat', backgroundSize: '100%,100%', backgroundSize: 'contain',backgroundPosition: 'center',height: '90vh',width: '100vw'}}> */} 
+      <header>
+        <h1 className="text-center mx-3">Currency Converter</h1>
       </header>
+      <Convert/>
+      <Footer/>
     </div>
   );
 }
