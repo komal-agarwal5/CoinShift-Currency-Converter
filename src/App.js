@@ -61,7 +61,7 @@ function App() {
       <header>
              <h1 className="text-center mx-3">Currency Converter</h1>
       </header>
-    <div className="flex justify-around">
+    <div className="flex justify-around cont">
     <div className="container border-2 m-2 p-5 border-gray-500">
       <div className="input-amount">
         <label>Amount:</label>
@@ -130,7 +130,7 @@ function App() {
         <label>Converted Amount: {output.toFixed(2)}</label>
       </div>
     </div>
-        <div>
+        <div className="imghero">
           <img src={bg} alt="" width={500} height={500} />
         </div>
       </div>
