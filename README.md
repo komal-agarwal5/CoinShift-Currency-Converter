@@ -55,7 +55,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## License
 
-This project is licensed under the MIT License. See the [https://github.com/komal-agarwal5/CoinShift-Currency-Converter/blob/master/LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/komal-agarwal5/CoinShift-Currency-Converter/blob/master/LICENSE) file for details.
 
 ## Where to contact ?
 
