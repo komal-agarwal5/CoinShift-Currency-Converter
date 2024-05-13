@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# Currency Converter
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+This is a simple currency converter application that allows users to convert between different currencies. It fetches live exchange rates from an API and performs conversions accordingly.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Conversion between different currencies
+- Automatic fetching of latest exchange rates
+- Simple and intuitive user interface
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Speciality
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Bidirectional Conversion feature is present
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository:
+   ```
+   git clone https://github.com/komal-agarwal5/CoinShift-Currency-Converter.git
+   ```
+2. Navigate to the project directory:
+   ```
+   cd conshift-currency-converter
+   ```
+3. Install dependencies:
+   ```
+   npm install
+   ```
+   
+## Usage
 
-### `npm run build`
+1. Start the application:
+   ```
+   npm start
+   ```
+2. Open your web browser and navigate to `http://localhost:3000`
+3. Select the currency you want to convert from and to, enter the amount, and click on the convert button.
+4. The converted amount will be displayed below.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies Used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- React.js: A JavaScript library for building user interfaces.
+- HTML/CSS: For structuring and styling the website.
+- JavaScript: Used for implementing logic and functionality.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## API Used
 
-### `npm run eject`
+- For fetching live exchange rates, this project uses the Open Exchange Rates API. 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contributing
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Please make sure to update tests as appropriate.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## License
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+This project is licensed under the MIT License. See the [https://github.com/komal-agarwal5/CoinShift-Currency-Converter/blob/master/LICENSE](LICENSE) file for details.
 
-## Learn More
+## Where to contact ?
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Contact: [komal.agarwal0709@gmail.com]
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Support
 
-### Code Splitting
+💙 If you like this project, do give it a ⭐ and share it with your friends!<br><br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Made with ❤️ by Komal Agarwal <br><br>
